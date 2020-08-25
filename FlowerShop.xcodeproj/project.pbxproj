@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8DA16C0824F4F7780019499F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C0724F4F7780019499F /* AppDelegate.swift */; };
+		8DA16C0A24F4F7780019499F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C0924F4F7780019499F /* SceneDelegate.swift */; };
+		8DA16C0C24F4F7780019499F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C0B24F4F7780019499F /* ViewController.swift */; };
+		8DA16C0F24F4F7780019499F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16C0D24F4F7780019499F /* Main.storyboard */; };
+		8DA16C1224F4F7780019499F /* FlowerShop.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C1024F4F7780019499F /* FlowerShop.xcdatamodeld */; };
+		8DA16C1424F4F7790019499F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16C1324F4F7790019499F /* Assets.xcassets */; };
+		8DA16C1724F4F7790019499F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8DA16C1524F4F7790019499F /* LaunchScreen.storyboard */; };
+		8DA16C2224F4F77A0019499F /* FlowerShopTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C2124F4F77A0019499F /* FlowerShopTests.swift */; };
+		8DA16C2D24F4F77A0019499F /* FlowerShopUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DA16C2C24F4F77A0019499F /* FlowerShopUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8DA16C1E24F4F77A0019499F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA16BFC24F4F7780019499F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA16C0324F4F7780019499F;
+			remoteInfo = FlowerShop;
+		};
+		8DA16C2924F4F77A0019499F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8DA16BFC24F4F7780019499F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DA16C0324F4F7780019499F;
+			remoteInfo = FlowerShop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8DA16C0424F4F7780019499F /* FlowerShop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlowerShop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA16C0724F4F7780019499F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8DA16C0924F4F7780019499F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		8DA16C0B24F4F7780019499F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8DA16C0E24F4F7780019499F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8DA16C1124F4F7780019499F /* FlowerShop.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = FlowerShop.xcdatamodel; sourceTree = "<group>"; };
+		8DA16C1324F4F7790019499F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8DA16C1624F4F7790019499F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8DA16C1824F4F7790019499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA16C1D24F4F77A0019499F /* FlowerShopTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerShopTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA16C2124F4F77A0019499F /* FlowerShopTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShopTests.swift; sourceTree = "<group>"; };
+		8DA16C2324F4F77A0019499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8DA16C2824F4F77A0019499F /* FlowerShopUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FlowerShopUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8DA16C2C24F4F77A0019499F /* FlowerShopUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlowerShopUITests.swift; sourceTree = "<group>"; };
+		8DA16C2E24F4F77A0019499F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8DA16C0124F4F7780019499F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C1A24F4F77A0019499F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C2524F4F77A0019499F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8DA16BFB24F4F7780019499F = {
+			isa = PBXGroup;
+			children = (
+				8DA16C0624F4F7780019499F /* FlowerShop */,
+				8DA16C2024F4F77A0019499F /* FlowerShopTests */,
+				8DA16C2B24F4F77A0019499F /* FlowerShopUITests */,
+				8DA16C0524F4F7780019499F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8DA16C0524F4F7780019499F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8DA16C0424F4F7780019499F /* FlowerShop.app */,
+				8DA16C1D24F4F77A0019499F /* FlowerShopTests.xctest */,
+				8DA16C2824F4F77A0019499F /* FlowerShopUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8DA16C0624F4F7780019499F /* FlowerShop */ = {
+			isa = PBXGroup;
+			children = (
+				8DA16C0724F4F7780019499F /* AppDelegate.swift */,
+				8DA16C0924F4F7780019499F /* SceneDelegate.swift */,
+				8DA16C0B24F4F7780019499F /* ViewController.swift */,
+				8DA16C0D24F4F7780019499F /* Main.storyboard */,
+				8DA16C1324F4F7790019499F /* Assets.xcassets */,
+				8DA16C1524F4F7790019499F /* LaunchScreen.storyboard */,
+				8DA16C1824F4F7790019499F /* Info.plist */,
+				8DA16C1024F4F7780019499F /* FlowerShop.xcdatamodeld */,
+			);
+			path = FlowerShop;
+			sourceTree = "<group>";
+		};
+		8DA16C2024F4F77A0019499F /* FlowerShopTests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA16C2124F4F77A0019499F /* FlowerShopTests.swift */,
+				8DA16C2324F4F77A0019499F /* Info.plist */,
+			);
+			path = FlowerShopTests;
+			sourceTree = "<group>";
+		};
+		8DA16C2B24F4F77A0019499F /* FlowerShopUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8DA16C2C24F4F77A0019499F /* FlowerShopUITests.swift */,
+				8DA16C2E24F4F77A0019499F /* Info.plist */,
+			);
+			path = FlowerShopUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8DA16C0324F4F7780019499F /* FlowerShop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA16C3124F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShop" */;
+			buildPhases = (
+				8DA16C0024F4F7780019499F /* Sources */,
+				8DA16C0124F4F7780019499F /* Frameworks */,
+				8DA16C0224F4F7780019499F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlowerShop;
+			productName = FlowerShop;
+			productReference = 8DA16C0424F4F7780019499F /* FlowerShop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8DA16C1C24F4F77A0019499F /* FlowerShopTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA16C3424F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShopTests" */;
+			buildPhases = (
+				8DA16C1924F4F77A0019499F /* Sources */,
+				8DA16C1A24F4F77A0019499F /* Frameworks */,
+				8DA16C1B24F4F77A0019499F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA16C1F24F4F77A0019499F /* PBXTargetDependency */,
+			);
+			name = FlowerShopTests;
+			productName = FlowerShopTests;
+			productReference = 8DA16C1D24F4F77A0019499F /* FlowerShopTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8DA16C2724F4F77A0019499F /* FlowerShopUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8DA16C3724F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShopUITests" */;
+			buildPhases = (
+				8DA16C2424F4F77A0019499F /* Sources */,
+				8DA16C2524F4F77A0019499F /* Frameworks */,
+				8DA16C2624F4F77A0019499F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8DA16C2A24F4F77A0019499F /* PBXTargetDependency */,
+			);
+			name = FlowerShopUITests;
+			productName = FlowerShopUITests;
+			productReference = 8DA16C2824F4F77A0019499F /* FlowerShopUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8DA16BFC24F4F7780019499F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1160;
+				ORGANIZATIONNAME = "Razvan Cozma";
+				TargetAttributes = {
+					8DA16C0324F4F7780019499F = {
+						CreatedOnToolsVersion = 11.6;
+					};
+					8DA16C1C24F4F77A0019499F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8DA16C0324F4F7780019499F;
+					};
+					8DA16C2724F4F77A0019499F = {
+						CreatedOnToolsVersion = 11.6;
+						TestTargetID = 8DA16C0324F4F7780019499F;
+					};
+				};
+			};
+			buildConfigurationList = 8DA16BFF24F4F7780019499F /* Build configuration list for PBXProject "FlowerShop" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8DA16BFB24F4F7780019499F;
+			productRefGroup = 8DA16C0524F4F7780019499F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8DA16C0324F4F7780019499F /* FlowerShop */,
+				8DA16C1C24F4F77A0019499F /* FlowerShopTests */,
+				8DA16C2724F4F77A0019499F /* FlowerShopUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8DA16C0224F4F7780019499F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA16C1724F4F7790019499F /* LaunchScreen.storyboard in Resources */,
+				8DA16C1424F4F7790019499F /* Assets.xcassets in Resources */,
+				8DA16C0F24F4F7780019499F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C1B24F4F77A0019499F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C2624F4F77A0019499F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8DA16C0024F4F7780019499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA16C1224F4F7780019499F /* FlowerShop.xcdatamodeld in Sources */,
+				8DA16C0C24F4F7780019499F /* ViewController.swift in Sources */,
+				8DA16C0824F4F7780019499F /* AppDelegate.swift in Sources */,
+				8DA16C0A24F4F7780019499F /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C1924F4F77A0019499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA16C2224F4F77A0019499F /* FlowerShopTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8DA16C2424F4F77A0019499F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8DA16C2D24F4F77A0019499F /* FlowerShopUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8DA16C1F24F4F77A0019499F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA16C0324F4F7780019499F /* FlowerShop */;
+			targetProxy = 8DA16C1E24F4F77A0019499F /* PBXContainerItemProxy */;
+		};
+		8DA16C2A24F4F77A0019499F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8DA16C0324F4F7780019499F /* FlowerShop */;
+			targetProxy = 8DA16C2924F4F77A0019499F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8DA16C0D24F4F7780019499F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA16C0E24F4F7780019499F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8DA16C1524F4F7790019499F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8DA16C1624F4F7790019499F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8DA16C2F24F4F77A0019499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8DA16C3024F4F77A0019499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8DA16C3224F4F77A0019499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8DA16C3324F4F77A0019499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShop/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8DA16C3524F4F77A0019499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerShop.app/FlowerShop";
+			};
+			name = Debug;
+		};
+		8DA16C3624F4F77A0019499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShopTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShopTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FlowerShop.app/FlowerShop";
+			};
+			name = Release;
+		};
+		8DA16C3824F4F77A0019499F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerShop;
+			};
+			name = Debug;
+		};
+		8DA16C3924F4F77A0019499F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 35CE5T63BY;
+				INFOPLIST_FILE = FlowerShopUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.razvan.FlowerShopUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FlowerShop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8DA16BFF24F4F7780019499F /* Build configuration list for PBXProject "FlowerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA16C2F24F4F77A0019499F /* Debug */,
+				8DA16C3024F4F77A0019499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA16C3124F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA16C3224F4F77A0019499F /* Debug */,
+				8DA16C3324F4F77A0019499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA16C3424F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShopTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA16C3524F4F77A0019499F /* Debug */,
+				8DA16C3624F4F77A0019499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8DA16C3724F4F77A0019499F /* Build configuration list for PBXNativeTarget "FlowerShopUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DA16C3824F4F77A0019499F /* Debug */,
+				8DA16C3924F4F77A0019499F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DA16C1024F4F7780019499F /* FlowerShop.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DA16C1124F4F7780019499F /* FlowerShop.xcdatamodel */,
+			);
+			currentVersion = 8DA16C1124F4F7780019499F /* FlowerShop.xcdatamodel */;
+			path = FlowerShop.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 8DA16BFC24F4F7780019499F /* Project object */;
+}
